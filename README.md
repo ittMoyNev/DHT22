@@ -1,4 +1,4 @@
-# DHT22
+# [![DHT22.png](https://i.postimg.cc/TwTsk6Zx/DHT22.png)](https://postimg.cc/p91kTgWc)
 Exposiciones de los sensores del Simulador - DHT22
 
 # ¿Qué es el DHT22?
@@ -26,7 +26,8 @@ Recuerda que tienen 3 pines que debes usar: GND, Vcc y Datos. El pin #3 no se us
     -Datasheet de Sparkfun
 Si has leído nuestro manual sobre el DHT11 sabrás que transmite en digital por su pin Data, por tanto, otra ventaja para estos sensores. No habrá que generar código en Arduino IDE para pasar de analógico a valores comprensibles para el humano, sino que se puede tratar directamente la señal digital para pasarla a grados o porcentaje de humedad relativa.
 
-En parte, por eso también es tan preciso, ya que con la trama de 40-bits que transmite, la precisión es más elevada. Incluso incluye unos bits de paridad para detectar fallos en la señal. Eso con una señal analógica no lo tienes, a parte de que la analógica es muy sensible a las variaciones de voltaje…
+En parte, por eso también es tan preciso, ya que con la trama de 40-bits que transmite, la precisión es más elevada. Incluso incluye unos bits de paridad para detectar fallos en la señal. Eso con una señal analógica no lo tienes, a parte de que la analógica es muy sensible a las variaciones de voltaje.
+
 [![pinout-dht11.jpg](https://i.postimg.cc/DwCkBmLq/pinout-dht11.jpg)](https://postimg.cc/5XFRt4P0)
 
 # Especificaciones tecnicas
